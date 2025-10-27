@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: auto;
+  -moz-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: auto;
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+.container
+{
+    text-align: left;
+    margin: 10px 10px ;
+    padding: 20px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: lightgrey;
+    width: 100%;
+    
+}
+.buttons{
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    background: blue;
+    color: white;
+
+}
+
+.buttons:hover{
+    background-color: lightblue;
+    color: darkblue;
+
+}
+
+h1 {
+  font-size: 1.5rem;
+}
